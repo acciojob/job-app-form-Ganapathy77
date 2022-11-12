@@ -8,46 +8,47 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form action="sumbit.html" method="post">
+	<form method="post">
 		
 		<label for="name">Name</label>
-		<input id="name" type="text" placeholder="Name" required>
+		<input id="name" type="text" required>
 		<br><br>
 
 		<label for="email">Email</label>
-		<input id="email" type="email" placeholder="Email-id" required>
+		<input id="email" type="email" required>
 		<br><br>
 
-		<input type="radio" name="gender" value="Male" required>
-		<label for="gender">Male</label>
-		<input type="radio" name="gender" value="Female" required>
-		<label for="gender">Female</label>
+		<label>Gender</label>
+		<input type="radio" name="malle" value="Male" required>
+		<label for="male">Male</label>
+		<input type="radio" name="female" value="Female" required>
+		<label for="female">Female</label>
 		<br><br>
 
 		<label for="laptop">Laptop brands</label>
-		<select name="laptop">
-			<option value="Apple">Apple</option>
-			<option value="Asus">Asus</option>
-			<option value="HP">HP</option>
+		<select id="laptop" required>
+			<option id="laptop" value="Apple">Apple</option>
+			<option id="laptop" value="Asus">Asus</option>
+			<option id="laptop" value="HP">HP</option>
 		</select>
 		<br><br>
 
 		<label for="age">Age</label>
-		<input type="number" id="age" placeholder="Age" required>
+		<input type="number" id="age" required>
 		<br><br>
 
 		<label for="dob">DOB</label>
-		<input type="date" id="date" placeholder="DOB" required>
+		<input type="date" id="date"  required>
 		<br><br>
 
 		<label for="password">Password</label>
-		<input type="password" id="password" placeholder="password" required>
+		<input type="password" id="password" required>
 		<br><br>
 
 		<label for="portfolio">Portfolio</label>
-		<input type="url" id="portfolio" placeholder="Portfolio" >
+		<input type="url" id="portfolio" required >
 		<br><br>
-		<button type="submit">Submit</button>
+		<button id="button" type="submit">Submit</button>
 
 	</form>
     <script type="text/javascript" src="./script.js">
