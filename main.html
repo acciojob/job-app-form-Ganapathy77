@@ -9,50 +9,44 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form method="post">
-		
-		<label for="name">Name</label>
-		<input id="name" type="text" required>
-		<br><br>
+		<label for="name">
+		Name: <input type="text" value="Abdul" id="name" required>
+		</label><br><br>
 
-		<label for="email">Email</label>
-		<input id="email" type="email" required>
-		<br><br>
+		<label for="email">
+		   Email: <input type="email" value="xyz@gmail.com" id="email" required>
+		</label><br><br>
 
-		<label for="portfolio">Portfolio</label>
-		<input id="portfolio" type="url" name="portfolio" >
-		<br><br>
+		<label for="portfolio">
+			Portfolio: <input type="url" value="www.grandcoder.in" id="portfolio">
+		 </label><br><br>
 
-		<label for="gender">Gender</label>
-		<input id="male" name="gender" type="radio" value="Male" required>
-		<label for="male">Male</label>
-		<input id="female" name="gender" type="radio" value="Female" required>
-		<label for="female">Female</label>
-		<input id="others" name="gender" type="radio" value="Others" required>
-		<label for="others">Others</label>
-		<br><br>
+		<label for="gender">
+			Gender: <input type="radio" name="gender" value="Male" id="gender" required>
+			<input type="radio" name="gender" value="Female" id="gender" required>
+		 </label><br><br>
 
-		<label for="laptop">Laptop brands</label>
-		<select name="laptop_brands" id="laptop">
-			<option value="Apple">Apple</option>
-			<option value="Asus">Asus</option>
-			<option value="HP">HP</option>
-		</select>
-		<br><br>
+        <label for="laptop">
+			Laptop Brands: 
+			<select name="Laptop_brands" id="laptop" required>
+				<option value="Apple">Apple</option>
+				<option value="Asus">Asus</option>
+				<option value="HP">HP</option>
+			  </select>
+		</label><br><br>
 
-		<label for="age">Age</label>
-		<input id="age" type="number" required>
-		<br><br>
+		<label for="age">
+			Age: <input type="number" value="22" id="age" required>
+		 </label><br><br>
 
-		<label for="dob">DOB</label>
-		<input id="dob" type="date"  required>
-		<br><br>
+		 <label for="dob">
+			DOB: <input type="date" value="12/10/2022" id="dob" required>
+		 </label><br><br>
 
-		<label for="password">Password</label>
-		<input id="password" type="password" required>
-		<br><br>
-
-		<button id="button" type="submit">Submit</button>
-
+		 <label for="password">
+			Password: <input type="password" value="abdul123@" id="password" required>
+		 </label><br><br>
+		 <button type='submit'>Button</button>
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
